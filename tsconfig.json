@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "ES6",                        // Specify ECMAScript target version: "ES3" (default), "ES5", "ES6"/"ES2015", "ES2016", etc.
+    "module": "commonjs",                   // Specify module code generation: "commonjs", "es2015", "amd", "system", "umd" or "esnext".
+    "declaration": true,                    // Generate .d.ts files for TypeScript types.
+    "outDir": "./dist",                     // Redirect output structure to the "dist" directory.
+    "rootDir": "./src",                     // Specify the root directory of input files.
+    "strict": true,                         // Enable all strict type-checking options.
+    "esModuleInterop": true,                // Allows ES modules to import CommonJS modules.
+    "skipLibCheck": true,                   // Skip type checking of all declaration files (.d.ts).
+    "forceConsistentCasingInFileNames": true // Ensure that file names are consistently cased.
+  },
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}

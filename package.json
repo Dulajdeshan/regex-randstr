@@ -1,0 +1,39 @@
+{
+  "name": "regex-randstr",
+  "version": "1.0.0",
+  "description": "A tool to generate random strings based on a regex pattern using TypeScript.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "homepage": "https://github.com/Dulajdeshan/regex-randstr",
+  "readme": "https://github.com/Dulajdeshan/regex-randstr#readme",
+  "author": {
+    "name": "Dulaj Ariyaratne",
+    "email": "dulajdeshans@gmail.com",
+    "url": "https://github.com/dulajdeshan"
+  },
+  "repository": {
+    "url": "https://github.com/Dulajdeshan/regex-randstr",
+    "type": "git",
+    "directory": "."
+  },
+  "bugs": {
+    "url": "https://github.com/Dulajdeshan/regex-randstr/issues",
+    "email": "dulajdeshans@gmail.com"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "regex",
+    "string",
+    "typescript",
+    "generator"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.6.2"
+  }
+}
